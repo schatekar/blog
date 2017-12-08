@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello there. Welcome to my website. I hope you found whatever you came looking for and you liked the other content you found on your way. 
+
+During the day, I lead the innovation department at [Collinson Group](http://collinsongroup.com) and during the night I sleep!!
+
+I am currently learning Haskell. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am an idea person. Not a day passes by when I did not come across a new world-changing idea. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[suhas@chatekar.com](mailto:suhas@chatekar.com)
