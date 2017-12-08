@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Explain bitcoin like I am 5 year old
+published: false
 ---
 
 I have tried to explain how bitcoin works to a number of different people. With some I have been able to get to the low level detail like merkle trees but with others, I have failed miserably to continue the conversation beyond 5 minutes. I recently had a eureka moment of the __dumbest ever explanation of bitcoin__. I will leave it to the readers to tell me if has worked. So let's get started
