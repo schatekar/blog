@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What makes a chatbot great?
-published: false
+published: true
 ---
 
 Last month I attended the Big Data London conference. One of the sessions run by Microsoft had a slide that roughly read like 
