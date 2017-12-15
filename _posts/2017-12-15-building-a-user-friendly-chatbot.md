@@ -4,7 +4,7 @@ title: What makes a chatbot great?
 published: true
 ---
 
-Last month I attended the Big Data London conference. One of the sessions run by Microsoft had a slide that roughly read like 
+Last month I attended the Big Data London conference. One of the [sessions run by Microsoft](https://www.slideshare.net/MatthewStubbs6/big-data-ldn-2017-improving-customer-experience-with-an-ai-bot?ref=https://bigdataldn.com/slides/) had a slide (#7) that roughly read like 
 
 
 ### What makes a bot great?
@@ -33,10 +33,10 @@ Humour is everywhere around us, so why not with bots? When we ran the first inte
 This is the most important thing. Over time, your users will keep coming back to the bot and ask similar questions. It is easy to build a non-lively conversation by having the bot respond in a monotonous manner. 
 Imagine you welcome every time the user starts talking to the bot. If you welcome the user by saying "Welcome back Bob" every time, then soon, that will become very monotonous and less engaging for the user. 
 
-It does not take a lot to bring variation in bot responses if you are using tools like Watson Conversation or Microsoft Bot framework. Most of us will ignore this during development as it's an overhead. But do not forget to add this in before you go live or even go out for a wider beta test. And do not add variations just for the welcome message but for every response that is coming back from the bot. 
+It does not take a lot to bring variation in bot responses if you are using tools like [Watson Conversation](https://www.ibm.com/watson/services/conversation/) or [Microsoft Bot Framework](https://dev.botframework.com/). Most of us will ignore this during development as it's an overhead. But do not forget to add this in before you go live or even go out for a wider beta test. And do not add variations just for the welcome message but for every response that is coming back from the bot. 
 
 ## #4 - Handle small talk
-Small talk is relatively straightforward to handle and very easy to fall through the cracks. Some bot services like Dialog Flow will handle small talk automatically for you. All you have to do it enable it. But for others, you need to build conversations around small talk. If you are sailing in this boat, consider the following 
+Small talk is relatively straightforward to handle and very easy to fall through the cracks. Some bot services like [Dialog Flow](https://dialogflow.com/) will handle small talk automatically for you. All you have to do it enable it. But for others, you need to build conversations around small talk. If you are sailing in this boat, consider the following 
 
 1. Greet the user with a welcome message at the beginning of the conversation and assume that user may reply with small talk like "thanks", "hello". 
 2. Always end the conversation with small talk like "bye", "see you soon" etc. and assume that user will respond with similar words
@@ -56,7 +56,7 @@ Bot: What do you think of the following options?
 User: how long before I can cancel a booking?
 ```
 
-The conversation was in the middle of a context around hotel search. User asks a question about the cancellation. The best thing for the bot to do here is to answer the user's question on cancellation (if modelled to do so) and then go back to hotel search. Microsoft bot framework supports such use cases out of the box. With others, you will need to do some work yourself but this is definitely possible. 
+The conversation was in the middle of a context around hotel search. User asks a question about the cancellation. The best thing for the bot to do here is to answer the user's question on cancellation (if modelled to do so) and then go back to hotel search. [Microsoft Bot Framework](https://dev.botframework.com/) supports such use cases out of the box. With others, you will need to do some work yourself but this is definitely possible. 
 
 Handling out of context conversation is important because when the user makes a typo that results in bot not recognising what the user is saying, then you would want to present a friendly message to the user and then get back into the previous conversation context. 
 
@@ -71,5 +71,5 @@ You may not want to bake all of the above into your bot from day 1. But at least
 ## #8 - Offer a help menu
 Last but not least, offer a help menu in the form of a conversation. The simplest thing you can do is when the user types something like "help" or "I need help", you can present a message back to the user listing everything that the bot can help the user with. In this response, you can also describe how to talk to a human. 
 
-Again, Microsoft bot framework offers such feature out of the box. For other services, you will need to build this yourself. 
+Again, [Microsoft Bot Framework](https://dev.botframework.com/) offers such feature out of the box. For other services, you will need to build this yourself. 
 
