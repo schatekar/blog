@@ -1,7 +1,7 @@
 ---
 title: Return well-formed error responses from your REST APIs
 published: true
-description: Standard HTTP status codes are a good starting point to indicate error condition but they are not enough. Especially if you are developing APIs that are consumed by a large number of developers or are open to access by anyone then you may want to return well-formed error responses that provide more details about the error. 
+excerpt: Standard HTTP status codes are a good starting point to indicate error condition but they are not enough. Especially if you are developing APIs that are consumed by a large number of developers or are open to access by anyone then you may want to return well-formed error responses that provide more details about the error. 
 tags: rest, api, apis
 ---
 

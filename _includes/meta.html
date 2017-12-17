@@ -16,3 +16,9 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+    {% if page.tags %}
+    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+    {% endif %}
