@@ -13,6 +13,7 @@ layout: default
     {{ content }}
   </div>
 
+  <hr/>
 
   <div class="PageNavigation">
     <h2>Keep Reading</h2>
@@ -23,6 +24,8 @@ layout: default
       <a href="{{page.next.url}}">{{page.next.title}}</a>
     {% endif %}
   </div>
+
+  <hr/>
 
   {% include disqus.html %}
 </article>
