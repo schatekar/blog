@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dear product managers, do not hold your team to their estimates
 published: true
 excerpt: It’s impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
