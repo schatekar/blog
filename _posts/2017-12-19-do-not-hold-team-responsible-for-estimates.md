@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Dear product managers, do not hold your team to their estimates
-published: false
-excerpt: 
+published: true
+excerpt: It’s impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
+If you, as a product owner, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation without blowing your budget through the roof?
 ---
 
 ![Estimates are never correct]({{ site.url }}/images/estimation-billboard.jpg)
@@ -19,7 +20,7 @@ Estimates by definition are guesses. And they can be as correct or as wrong as a
 8. If #7 is the case, does the team know the extent?
 
 I am sure I have not covered everything here. But you get the gist — it’s impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
-If you, as a product owner, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation? Even you have a budget that you do not want to blow through the roof.
+If you, as a product owner, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation without blowing your budget through the roof?
 
 ## Keep an eye on team’s velocity
 In an ideal scenario, the velocity of a team should increase over time, everything being constant. This is because team keeps getting better at understanding the domain and using the tools and the tech. If the velocity is going down or is constant then it’s time to ask the right question.
