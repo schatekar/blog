@@ -1,7 +1,7 @@
 ---
 title: Dear product managers&#44; do not hold your team to their estimates
 published: true
-excerpt: It’s impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
+excerpt: Its impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
 If you, as a product owner, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation without blowing your budget through the roof?
 ---
 
