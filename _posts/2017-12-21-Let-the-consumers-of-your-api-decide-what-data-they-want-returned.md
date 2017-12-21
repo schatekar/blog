@@ -116,4 +116,4 @@ And we return this attribute by default for all our resources.
 
 ## Happy API consumer == Happy API developer == Great API
 
-{% tweet https://twitter.com/Gartner_Events/status/766024242953465856 align='center' %}x
+{% tweet https://twitter.com/Gartner_Events/status/766024242953465856 align='center' %}
