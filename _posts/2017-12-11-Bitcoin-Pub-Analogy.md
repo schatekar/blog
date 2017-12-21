@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Bitcoin Pub Analogy
-published: false
+title: Explain Bitcoin but do not confuse me with jargon
+excerpt: A lot of people find it difficult to understand how bitcoin (and consequently the blockchain) works. One of the reasons for this could be that the most explanations on the internet either take away a lot of important technical details or keep a lot of details in. Both results in confusion. Complex topics like bitcoin and blockchain can best be explained by using an everyday analogy. So here is one for you.
+published: true
 ---
-Non-technical people find it difficult to understand how bitcoin (and consequently the blockchain) works. One of the reasons for this could be that the most explanations on the internet either take away a lot of important technical details or keep a lot of details in. Both results in confusion. Complex topics like bitcoin and blockchain can best be explained by using an everyday analogy. So here is one for you. But before we go into the analogy, let's spend a few moments understanding how payments work. 
+![Using Bitcoin is like being in a pub]({{ site.url }}/images/bitcoin.jpg)
+
+A lot of people find it difficult to understand how bitcoin (and consequently the blockchain) works. One of the reasons for this could be that the most explanations on the internet either take away a lot of important technical details or keep a lot of details in. Both results in confusion. Complex topics like bitcoin and blockchain can best be explained by using an everyday analogy. So here is one for you. But before we go into the analogy, let's spend a few moments understanding how payments work. 
 
 ## Payments in a world without blockchain
 When you pay at a shop using your card or transfer money to your friend's bank account, among a lot of other details, there is one important thing happening. Your bank and the other party's bank (the shop owner or your friend) are ensuring that the transaction is valid and can go through. In this scenario, you are trusting your bank to make sure that every transaction is valid. The bank is the trusted third party without which transactions like these cannot happen. 
