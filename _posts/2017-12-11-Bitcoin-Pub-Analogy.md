@@ -22,9 +22,9 @@ For our analogy to work, let's make some assumptions
 2. There is no bartender who can take payments
 3. The pub relies on their customers to ensure that every payment that customers make is valid
 
-Let's also assume that everyone has 50 pubcoins, to begin with^1^.
+Let's also assume that everyone has 50 pubcoins, to begin with.<sup>1</sup>
 
-Everyone in the pub has a piece of paper that lists how many pubcoins everyone in the pub has^2^. Let's call this piece of paper __balance sheet__.
+Everyone in the pub has a piece of paper that lists how many pubcoins everyone in the pub has.<sup>2</sup> Let's call this piece of paper __balance sheet__.
 
 ## Bob wants to pay for his beer
 Bob, our friend at the pub, wants to pay for his beer. Bob does what he can do in a pub like this. He tells people standing next to him, that he would like to transfer 5 pubcoins to the bartender. Those people check on their balance sheet if Bob really has 5 pubcoins to make that transaction. In this case, because Bob has 50 pubcoins, these people are going to assume that this is a valid transaction. These people then tell the other people next to them that Bob wants to transfer 5 pubcoins to the bartender. And those people follow the suit. Eventually, everyone in the pub knows that bob is transferring 5 pubcoins to the bartender. 
@@ -43,7 +43,7 @@ __Has Bob managed to fool the system?__
 He would have if it was not for another mechanism that helps everyone in the pub to verify that a transaction is not a double-spend. 
 
 ## Walls with indelible list of confirmed transactions
-There is a person by every wall of the pub. They have a special job for which they get rewarded^3^. As every transaction passes through them, they write it down on another piece of paper. In addition to ensuring that every transaction is valid, they also ensure that no transaction is resulting in double-spend. And if it does, they just reject the transaction causing double-spend. In case of Bob, one of his two transactions will be rejected by the people manning the walls. Whichever transaction is received first, will be kept as valid transaction (given it passes all the checks). It is possible that some of people by the wall reject the 5 pubcoins transactions while others reject the 50 pubcoins transaction. It all depends on who got which transaction first. I know this is confusing but just carry on for next few paragraphs and it will become clearer.  
+There is a person by every wall of the pub. They have a special job for which they get rewarded<sup>3</sup>. As every transaction passes through them, they write it down on another piece of paper. In addition to ensuring that every transaction is valid, they also ensure that no transaction is resulting in double-spend. And if it does, they just reject the transaction causing double-spend. In case of Bob, one of his two transactions will be rejected by the people manning the walls. Whichever transaction is received first, will be kept as valid transaction (given it passes all the checks). It is possible that some of people by the wall reject the 5 pubcoins transactions while others reject the 50 pubcoins transaction. It all depends on who got which transaction first. I know this is confusing but just carry on for next few paragraphs and it will become clearer.  
 
 These people have a way to talk to each other. Every 10 minutes, they choose one of them to be the leader of the group of people manning the walls. This leader, writes every valid transaction that they have known about in the last 10 minutes on the wall. It is written in a way that it is visible to everyone in the pub and cannot be erased by anyone. People manning the other walls see these new transactions on the wall and they write the exact same transactions on their wall for everyone else to see. These set of transactions are called a block. 
 
