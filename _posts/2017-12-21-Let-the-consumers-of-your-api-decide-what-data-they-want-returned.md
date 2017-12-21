@@ -116,4 +116,5 @@ And we return this attribute by default for all our resources.
 
 ## Happy API consumer == Happy API developer == Great API
 
-{% tweet https://twitter.com/Gartner_Events/status/766024242953465856 align='center' %}
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Treat your API like a product. Provide a good developer experience and have continuous, proactive engagement with consumers. <a href="https://twitter.com/hashtag/GartnerCAT?src=hash&amp;ref_src=twsrc%5Etfw">#GartnerCAT</a></p>&mdash; Gartner Events (@Gartner_Events) <a href="https://twitter.com/Gartner_Events/status/766024242953465856?ref_src=twsrc%5Etfw">August 17, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
