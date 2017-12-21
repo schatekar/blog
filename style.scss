@@ -64,20 +64,6 @@ h4 {
   color: $gray;
 }
 
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-sup {
-    top: -0.5em;
-}
-sub {
-    bottom: -0.25em;
-}
-
 p {
   margin: 15px 0;
 }
@@ -306,6 +292,20 @@ footer {
   float: left;
   margin: 1em 2em;
   font-size: large;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
