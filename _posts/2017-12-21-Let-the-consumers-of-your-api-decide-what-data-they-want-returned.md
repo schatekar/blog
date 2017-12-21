@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Let the consumers of your API decide what data they want returned in the payload
-excerpt: 
 published: true
 ---
 
