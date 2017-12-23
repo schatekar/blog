@@ -115,6 +115,10 @@ You can use one of the hypermedia specifications like [Siren](https://github.com
 And we return this attribute by default for all our resources.
 
 ## Happy API consumer == Happy API developer == Great API
+A product becomes great when their users are happy using that product. The same is true about APIs. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Treat your API like a product. Provide a good developer experience and have continuous, proactive engagement with consumers. <a href="https://twitter.com/hashtag/GartnerCAT?src=hash&amp;ref_src=twsrc%5Etfw">#GartnerCAT</a></p>&mdash; Gartner Events (@Gartner_Events) <a href="https://twitter.com/Gartner_Events/status/766024242953465856?ref_src=twsrc%5Etfw">August 17, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+I think that tweet sums it all. Lazy Gets is one of the ways to enhance the experience for the users of your APIs. Use it when you can. And use every other feature that will make your API product awesome. 
