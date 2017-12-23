@@ -21,7 +21,12 @@ There are two things worth noticing here
 
 Your load test scenario will be most effective when it tries to mimic this end user behaviour. Looking at the example from the previous paragraph again, we can say that
 
-1. 100% of the users are searching for event and 
+1. 100% of the users are searching for event and browing  through the details of the events
+2. 50% of the users are logging in 
+3. 10% of the users are intiating the checkout flow
+4. 1% of the users are finishing the checkout
+
+It will be wrong if our load test scenario  had every user finshing the checkout. We will be testing for 100 times more load than what we are expecting to have. If the load testing exercise was performed for server sizing, then we would end up with over-sizing the required capacity. If the purpose waa to determine the response times, then we would paint a worse picture then what we could see in proeuction. 
 
 ## Working out the right transaction mix
 
