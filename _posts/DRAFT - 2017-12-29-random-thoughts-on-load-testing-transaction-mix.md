@@ -8,24 +8,38 @@ published: false
 
 ## Transaction Mix
 
-Let's say you are testing a very simple event ticket booking website. A user would either register and then login or login directly using one of the supported social login methods. After logging in, they search for events near them, read various details and once they make up their minds, they head to checkout. The checkout in itself is a multi-step process. 
+If you record all the user journeys in a tool like JMeter and then run them under load, you are missing a very important aspect called __Transaction Mix__. Transaction mix let's you mimic how the real users will use different features of your website. 
 
-If you record all the user journeys in a tool like JMeter and then run them under load, you are missing a very important aspect called Transaction Mix. Transaction mix let's you mimic how the real users will use different features of your website. If you are expecting 100K users to visit your website everyday, them may be 50% of them login. Of those 100K people hitting your website, almost everyone will search for events and browse different pages until roughly 10% of them decide to checkout. In the end, only 1% successfully checkout. 
-
-> I have made up all those numbers. You would have a better idea of how those numbers stack up for your website.
+Let's use a fictitious example to understand what a transaction mix is. Let's we have a very simple e-commerce website that we want to load test. About 100K users visit this website every day. About 30K users login. 2000 users add one or more items to their basket. Roughly 500 users successfully checkout. 
 
 There are two things worth noticing here
 
-1. Not all users are using all features of the product
-2. Not all users are using the same feature at any point
+1. Not all users are using all features of the website. Some users drop out before they add any product to basket. 
+2. Not all users are using the same feature at any point. In other words, while some users are logging in, others are adding a product to their basket, while others are checking out. 
 
-Your load test scenario will be most effective when it tries to mimic this end user behaviour. Looking at the example from the previous paragraph again, we can say that
+Your load test scenario will be most effective when it tries to mimic this end user behaviour. If we are running a load test for the above website using a very simple load pattern like below
 
-1. 100% of the users are searching for event and 
+1. Start with 100 concurrent virtual users
+2. Add 10 new virtual user every 2 seconds for next 20 seconds
+
+You will end up with a total of 200 virtual users at the end of your test. For your load test to match the real end-user behaviour, you have 
+
+1. All the users hitting the home page of the website 
+2. Roughly 60 users are logging in
+3. Around 4 users adding a product to the basket
+4. 1 user successfully checking out
+
+There are possibly more nuances to this that I have ignored to keep the example simple. For instance, Of the 4 users who add one or more product to their basket, 3 users are logged in and one is using the website as a guest user. 
+
+
 
 ## Working out the right transaction mix
 
+So how do you find out what the right transaction mix is for your product? If you are load testing a new major version of an existing product, then this is actually very easy. You have a number of places where you can look for this information. The first place you should be looking at and your best bet would be website analytics. Website analytics will give you the most precise view of how user are using different website features. 
 
+If you do not have website analytics setup or you are unable to get access this data, then your next best shot is application logs. The quality of this data would depend on how application logging is setup in your system sand what tools you are using to capture and store application logs. If you are using enterprise tools like [New Relic](https://newrelic.com/) or [Splunk](https://www.splunk.com/) then querying the application logs to find out how different parts of the applications are using is relatively straight-forward. Even with an open source tool set like [ELK](https://www.elastic.co/webinars/introduction-elk-stack) getting this data should be easy. You will have a real challenge if you are still writing application logs in a file on the server. In that case, you will have to rely on other data combined with some guess work. For example, you can query the database to find out how many new users are registering every day or how many people are logging in on daily basis. This will not give a complete picture but at least your guess work will be based on some real data. 
+
+None of this will work if you are load testing a new application. In this case, your only option is guess work. But you can base the guess work on a solid foundation by using the numbers from business case. Most products are backed by a business case. When your product manager put together the business case, they would have given a serious thought to how the consumers are going to use their product. This would mostly be in the form of funnel analysis over a period of time. It can go something like this __Over a period of 18 months, we expect 100K users to visit our website, of which 50% would register for a free account and 5% will end up becoming paid customers.__ In my mind, these numbers are a more solid foundation for our guess work than querying application database.   
 
 
 
