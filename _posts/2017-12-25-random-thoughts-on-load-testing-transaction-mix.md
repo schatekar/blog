@@ -5,7 +5,7 @@ excerpt: Transaction mix let's you mimic how the real users will use different f
 published: true
 ---
 
-This post is part of a series - [Random thoughts on load testing](). 
+This post is part of a series - [Random thoughts on load testing](http://chatekar.com/random-thoughts-on-load-testing/). 
 
 Today we tak about __Transaction Mix__. 
 
