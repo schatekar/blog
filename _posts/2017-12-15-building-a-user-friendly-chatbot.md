@@ -26,18 +26,23 @@ First of all, give your bot a name. When we built our first bot we did not do th
 
 Do you want your bot to come across as a machine or as a human. This is very important and will go a long way in giving your bot a character. Generally, bots with machine-like characters will be mostly very static in their conversations. On the other hand human-like bots will engage their users with lively conversations. 
 
-Once you have done that, think of a bot persona. A number of factors will drive the bot persona - demographics of the target customer base, business domain and the task at hand, to name a few. Bot persona will help you greatly when you are work out responses to different situations.  
+Once you have done that, think of a bot persona. A number of factors will drive the bot persona - demographics of the target customer base, business domain and the task at hand, to name a few. Bot persona will help you greatly when you are work out responses to different situations. 
 
-## #2 - Be humorous
+## #2 - Watch the tone of voice 
+
+> Thanks to [Catherine Hornby](https://twitter.com/Cat4052) for this tip.
+After you have picked up a persona for your bot, it is essential to decide how that persona will respond in different conversations e.g. formal, informal, use of slang, colloquialism etc. When doing UX designs, we tend to put together style guides and color pallets to help wider teams come up consistent UI design. The same can be done with bots. You can have a copywriter put together a conversation style guide for different bot persona. Anyone building a bot conversation can refer to this style guide and come up with consistent bot responses. 
+
+## #3 - Be humorous
 Humour is everywhere around us, so why not with bots? When we ran the first internal test of our bot, a significant proportion of conversations started with users trying to be humorous. Even when your bot is built around a non-humorous business problem, the moment users find out that they are talking to a bot, there will always be a few who would try to be naughty and start saying funny things to the bot. You may not want to go overboard with handling every possibility in the universe but having humorous responses to some funny statements from the users will make your bot stand out. 
 
-## #3 - Do not be monotonous
+## #4 - Do not be monotonous
 This is the most important thing. Over time, your users will keep coming back to the bot and ask similar questions. It is easy to build a non-lively conversation by having the bot respond in a monotonous manner. 
 Imagine you welcome every time the user starts talking to the bot. If you welcome the user by saying "Welcome back Bob" every time, then soon, that will become very monotonous and less engaging for the user. 
 
 It does not take a lot to bring variation in bot responses if you are using tools like [Watson Conversation](https://www.ibm.com/watson/services/conversation/) or [Microsoft Bot Framework](https://dev.botframework.com/). Most of us will ignore this during development as it's an overhead. But do not forget to add this in before you go live or even go out for a wider beta test. And do not add variations just for the welcome message but for every response that is coming back from the bot. 
 
-## #4 - Handle small talk
+## #5 - Handle small talk
 Small talk is relatively straightforward to handle and very easy to fall through the cracks. Some bot services like [Dialog Flow](https://dialogflow.com/) will handle small talk automatically for you. All you have to do it enable it. But for others, you need to build conversations around small talk. If you are sailing in this boat, consider the following 
 
 1. Greet the user with a welcome message at the beginning of the conversation and assume that user may reply with small talk like "thanks", "hello". 
@@ -46,7 +51,7 @@ Small talk is relatively straightforward to handle and very easy to fall through
 
 Small talk is a never-ending thing. There will never be enough of it. But if you look at it from your domain lens, you can come up with a reasonably small list of things that people can say that bot can reply in a friendly way. And for the rest, you can always have a number of variations of the same response (remember trait #3 - Do not be monotonous)
 
-## #5 - Handle out of context conversations to a reasonable degree
+## #6 - Handle out of context conversations to a reasonable degree
 One of the best things about natural language interfaces is that users get the freedom to express in whatever way they want. But this also becomes one of the biggest pain points for us, bot developers. Now, we have to deal with users who change the conversation context in the middle of a conversation. Let's look at an example of a hotel finder bot
 
 ```
@@ -62,15 +67,15 @@ The conversation was in the middle of a context around hotel search. User asks a
 
 Handling out of context conversation is important because when the user makes a typo that results in bot not recognising what the user is saying, then you would want to present a friendly message to the user and then get back into the previous conversation context. 
 
-## #6 - Use sentiment analysis tools to determine user's mood
+## #7 - Use sentiment analysis tools to determine user's mood
 The whole natural language understanding field is in its infancy still. The lack of maturity in the technology makes it difficult to build bots that can match a human's speaking abilities and wit. So there will be times when you will leave a customer unhappy, frustrated or angry. Use sentiment analysis tools on every user statement to understand user's mood and respond accordingly. Do not wait for an angry or frustrated customer to tell you that they want to speak to a human. Do not forget to ask a happy customer for their feedback. 
 
-## #7 - Handoff to a human before the conversation becomes too frustrating for the user
+## #8 - Handoff to a human before the conversation becomes too frustrating for the user
 Make it easy for human agents to take over a conversation from the bot. Make it easy for humans to switch from the bot to a human (e.g. when they type help). Make it easy for the bot to hand the conversation over to a human agent. 
 
 You may not want to bake all of the above into your bot from day 1. But at least give the users an option to switch from a bot to a human, to begin with. Analyse how your users are interacting with the bot and decide what is the right time to get the other two features. 
 
-## #8 - Offer a help menu
+## #9 - Offer a help menu
 Last but not least, offer a help menu in the form of a conversation. The simplest thing you can do is when the user types something like "help" or "I need help", you can present a message back to the user listing everything that the bot can help the user with. In this response, you can also describe how to talk to a human. 
 
 Again, [Microsoft Bot Framework](https://dev.botframework.com/) offers such feature out of the box. For other services, you will need to build this yourself. 
