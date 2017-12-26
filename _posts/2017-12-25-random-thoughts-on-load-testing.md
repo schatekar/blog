@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Random thoughts on load testing
-excerpt: This is a series of blog posts on my random thoughts on load testing. I have seen that some of the very useful and interesting load testing ideas do not get much talked about and practiced. If you may have come across these before, or you may these intimately. But if you have not, hope you find these posts useful
+excerpt: This is a series of blog posts on my random thoughts on load testing. I have seen that some of the very useful and interesting load testing ideas do not get much talked about and practised. If you may have come across these before, or you may these intimately. But if you have not, hope you find these posts useful
+tweet: A good series of blog posts on useful load testing concepts
 published: true
 ---
 
