@@ -165,14 +165,15 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
+  width: 83px;
   height: 70px;
   margin-right: 15px;
+  margin-top: 14px;
 
   @include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
   }
 
   img {
@@ -201,12 +202,12 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: -5px 0 5px 0;
   color: $gray;
   font-size: 16px;
 
   @include mobile {
-    margin: 3px 0;
+    margin: 3px 5px;
   }
 }
 
