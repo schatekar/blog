@@ -8,7 +8,7 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  
+
   <hr/>
 
   <div class="entry">
@@ -17,12 +17,14 @@ layout: default
 
   {% if page.tweet %}
     <hr/>
-    <span style="font-size:16px">SHARE</span>
-    <a class="twitter-share-button" 
-        href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}">
-        Tweet</a>
-    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-    <script type="IN/Share" data-url="{{page.url}}"></script>
+    <span style="font-size:14px;padding-right:1em">SHARE</span>
+    <div>
+      <a class="twitter-share-button" 
+          href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}">
+          Tweet</a>
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+      <script type="IN/Share" data-url="{{page.url}}"></script>
+    </div>
   {% endif %}
   <hr/>
 
