@@ -15,8 +15,9 @@ layout: default
     {{ content }}
   </div>
 
+  <hr/>
+
   {% if page.tweet %}
-    <hr/>
     
     <div style="font-size:14px;padding-right:1em;float:left">SHARE</div>
     <div style="float:left">
@@ -26,9 +27,9 @@ layout: default
       <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
       <script type="IN/Share" data-url="{{page.url}}"></script>
     </div>
+    <hr style="clear:both"/>
+  
   {% endif %}
-  <hr/>
-
   <div class="PageNavigation">
     <h2>Keep Reading</h2>
     {% if page.previous.url %}
