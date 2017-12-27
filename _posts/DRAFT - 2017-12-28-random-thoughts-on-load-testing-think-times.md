@@ -24,6 +24,7 @@ User profiles is a way to segment the users into different buckets depending on 
 This is one representative segmentation based on end-user behaviour that tells us that the think times for the login journey can be different for different set of users. Besides working out potential think times, user profiles can also be used to tweak the transaction mix to reflect true end user behaviour. 
 
 ## How to work out think times and user profiles?
+As with [Transaction Mix](http://chatekar.com/random-thoughts-on-load-testing-transaction-mix/#working-out-the-right-transaction-mix), your best bet here is to rely on the website analytics. 
 
 ## How to use think times and user profiles?
 

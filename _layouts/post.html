@@ -14,10 +14,12 @@ layout: default
   </div>
 
   {% if page.tweet %}
-  <a class="twitter-share-button" 
-      href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}"
-      data-size="large">
-      Tweet</a>
+    <a class="twitter-share-button" 
+        href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}"
+        data-size="large">
+        Tweet</a>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+    <script type="IN/Share" data-url="{{page.url}}"></script>
   {% endif %}
   <hr/>
 
