@@ -12,7 +12,7 @@ This is a series of blog posts on my random thoughts on load testing. I am not e
 * Think Times & User Profiles
 * Load Pattern
 
-If there is any specific topic you would want me to cover, do let me know via a comment on this post or [send me a tweet](https://twitter.com/suhas_chatekar)
+If there is any specific topic you would want me to cover, do let me know via a comment on this post or [send me a tweet](https://twitter.com/intent/tweet?text=@suhas_chatekar)
 
 This is a work in progress so keep an eye on this space for updates.
 
