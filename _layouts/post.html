@@ -17,13 +17,15 @@ layout: default
 
   {% if page.tweet %}
     <hr/>
-    <span style="font-size:14px;padding-right:1em">SHARE</span>
-    <div>
-      <a class="twitter-share-button" 
-          href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}">
-          Tweet</a>
-      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-      <script type="IN/Share" data-url="{{page.url}}"></script>
+    <div style="clear:both">
+      <div style="font-size:14px;padding-right:1em;float:left">SHARE</div>
+      <div style="float:left">
+        <a class="twitter-share-button" 
+            href="https://twitter.com/intent/tweet?text={{page.tweet}}&via={{site.footer-links.twitter}}">
+            Tweet</a>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+        <script type="IN/Share" data-url="{{page.url}}"></script>
+      </div>
     </div>
   {% endif %}
   <hr/>
