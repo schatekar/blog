@@ -3,6 +3,7 @@ title: "Dear product managers, do not hold your team to their estimates"
 published: true
 excerpt: "It's impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
 If you, as a product manager, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation without blowing your budget through the roof?"
+tweet: "Dear product managers, do not hold your team to their estimates"
 ---
 
 ![Estimates are never correct]({{ site.url }}/images/estimation-billboard.jpg)
@@ -21,15 +22,15 @@ Estimates by definition are guesses. And they can be as correct or as wrong as a
 I am sure I have not covered everything here. But you get the gist — it’s impossible to come up with an estimate that is close to reality, specifically when the reality itself is not constant which is usually the case.
 If you, as a product manager, fail to realise this and keep holding the team for their estimates, then they will learn to work around your behaviour by inflating the estimates or by cutting corners. Both are harmful to your product. So how do you deal with such situation without blowing your budget through the roof?
 
-## Keep an eye on team’s velocity
-In an ideal scenario, the velocity of a team should increase over time, everything being constant. This is because team keeps getting better at understanding the domain and using the tools and the tech. If the velocity is going down or is constant then it’s time to ask the right question.
+## Keep an eye on team's velocity
+In an ideal scenario, the velocity of a team should increase over time, everything being constant. This is because team keeps getting better at understanding the domain and using the tools and the tech. If the velocity is going down or is constant then it's time to ask the right question.
 
 ## See if you are adding more complex features to the backlog or changing scope
 Before you set out to ask the right questions, take a good look at your backlog to find out
 1. If the recent features that the team delivered were more complex than the ones they delivered earlier
 2. If the scope of features has changed after the initial estimate was provided
 
-If the answers to above are positive then it’s worth knowing how the team felt about the change in complexity or scope. If nothing else, it will help build relationships
+If the answers to above are positive then its worth knowing how the team felt about the change in complexity or scope. If nothing else, it will help build relationships
 
 ## Find out what caused velocity to go down
 A lot of reasons can contribute to a low velocity. Have a chat with your team and understand the challenges they faced. Did they misunderstand a requirement? Did they develop something that was not in the scope? Help them understand the priority of the features by attaching business value to each feature. Sometimes it could be a simple and silly mistake but who does not make mistakes? The key is learning from the mistakes.

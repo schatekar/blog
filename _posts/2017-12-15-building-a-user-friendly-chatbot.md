@@ -3,6 +3,7 @@ layout: post
 title: What makes a chatbot great?
 author: Suhas Chatekar
 excerpt: AI, user of voice or guide UI does not make a chatbot great. It is the personality of the bot that makes it great. But what does "personality of the bot" even mean?
+tweet: A wonderful collection of of tips to build a great chatbot
 published: true
 ---
 

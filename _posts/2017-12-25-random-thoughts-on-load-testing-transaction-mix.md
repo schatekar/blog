@@ -2,6 +2,7 @@
 layout: post
 title: Random thoughts on load testing - Transaction Mix
 excerpt: Transaction mix let's you mimic how the real users will use different features of your website. A right transaction mix let's us project the right website performance with the right server capacity needed.
+tweet: Next time you run a load test, make sure you use the right transaction mix
 published: true
 ---
 

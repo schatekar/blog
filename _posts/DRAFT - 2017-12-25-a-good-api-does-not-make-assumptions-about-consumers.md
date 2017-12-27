@@ -2,6 +2,7 @@
 layout: post
 title: A good API does not make assumptions about their consumers
 excerpt: A lot of times we build an API to meet a specific need, publish those APIs and then expect the consumers to use the API for that specific purpose. This may work when both API producers and consumers are the same team. But the moment API consumption goes outside of the team, it becomes difficult to dictate how the consumers must use the API. It is best not to make any assumptions around that. 
+tweet: Avoid arguments with consumers of your API over how to use the API
 published: false
 ---
 
@@ -12,7 +13,7 @@ Recently we found out that an API that was built to help deliver a front-end fea
 An API that returns unbounded result set affects the performance and throughput in more than one way
 
 1. You 
-When your API returns an unbounded result set or allows the consumer to request unbounded or a large number of results then you are putting yourself at the risk of letting the API consumer inadvertantly degrade the performance of your API. As a rule of thumb, you should never let your the consumers of your API request an unbounded result set. You can request one or more parameters to filter the results and make those parameters mandatory. Even after this, your API may still return a large number of results. You can limit this by implementing a pagination feature which is always turned on by default. 
+When your API returns an unbounded result set or allows the consumer to request unbounded or a large number of results then you are putting yourself at the risk of letting the API consumer inadvertently degrade the performance of your API. As a rule of thumb, you should never let your the consumers of your API request an unbounded result set. You can request one or more parameters to filter the results and make those parameters mandatory. Even after this, your API may still return a large number of results. You can limit this by implementing a pagination feature which is always turned on by default. 
 
 
 

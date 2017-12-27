@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Let the consumers of your API decide what data they want returned in the payload
+tweet: Take your hypermedia API to the next level by using Lazy Gets
 published: false
 ---
 

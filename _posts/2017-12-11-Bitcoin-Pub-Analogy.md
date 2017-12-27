@@ -2,6 +2,7 @@
 layout: post
 title: Explain Bitcoin but do not confuse me with jargon
 excerpt: A lot of people find it difficult to understand how bitcoin (and consequently the blockchain) works. One of the reasons for this could be that the most explanations on the internet either take away a lot of important technical details or keep a lot of details in. Both results in confusion. Complex topics like bitcoin and blockchain can best be explained by using an everyday analogy. So here is one for you.
+tweet: If you ever thought bitcoin is too complex to understand, give this a read
 published: true
 ---
 ![Using Bitcoin is like being in a pub]({{ site.url }}/images/bitcoin.jpg)

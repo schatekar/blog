@@ -2,6 +2,7 @@
 layout: post
 title: Random thoughts on load testing - Think Times & User Profiles
 excerpt: Think Times and User Profiles are another nice techniques that lets you mimic the end user behaviour in your load tests. Used correctly, these techniques will result in your test scenario following then expected load pattern leading to more reliable test results
+tweet: Next time you run a load test, make sure you use the right think times and user profiles
 published: false
 ---
 

@@ -3,6 +3,7 @@ title: "Why you should use standard HTTP methods when designing REST APIs?"
 published: true
 excerpt: "One of the characteristics of a good REST API is that it uses the standard HTTP methods in a way they are supposed to be used. We hear this all the time and this is the most fundamental guideline of REST.But beyond the basics, why is it like that?" 
 cover_image: http://i.imgur.com/863Sq0v.png
+tweet: Why you should use standard HTTP methods when designing REST APIs?
 tags: [rest, http, api]
 ---
 
