@@ -18,7 +18,7 @@ Documentation is as much an art as it is a skill. It takes more than just the ma
 
 I am not saying that you can get answers to these questions by simply looking at the documentation of the project. Well, in some cases you do. But you will mostly be expected to go through contribution guidelines, review comments on pull requests or even interact with maintainers. 
 
-## #1. Established patterns and practices
+## #2. Established patterns and practices
 I still remember my first nodejs application and all the difficulty I had in adjusting to the new world order. Coming from .NET background, I understood how MVC pattern worked, but I was finding it difficult get my head around the fact that people write stable, production grade web application using a framework like [ExpressJs](https://expressjs.com/). The examples in the documentation looked so incomplete. I never understood how people wrote clean readable code in JavaScript. I never took off properly. 
 
 One day, I was looking to move my blog from wordpress to something that supported markdown. I came across [Ghost](https://ghost.org/) which was proudly advertised as being built using Node and Express. This piqued my interest. I went over to GitHub to look at their source code. 

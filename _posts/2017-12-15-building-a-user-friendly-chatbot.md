@@ -2,8 +2,8 @@
 layout: post
 title: What makes a chatbot great?
 author: Suhas Chatekar
-excerpt: AI, user of voice or guide UI does not make a chatbot great. It is the personality of the bot that makes it great. But what does "personality of the bot" even mean?
-tweet: A wonderful collection of of tips to build a great chatbot
+excerpt: AI, use of voice or guide UI does not make a chatbot great. It is the personality of the bot that makes it great. But what does "personality of the bot" even mean?
+tweet: A wonderful collection of tips to build a great chatbot
 published: true
 ---
 
@@ -25,14 +25,14 @@ Honestly, it is as complicated as the personality of us humans. There is no one 
 ## #1 - Give your bot some character
 First of all, give your bot a name. When we built our first bot we did not do this. We ended up having everyone refer to it as just a chatbot. But then we learned that you can make the bot more lively simply by giving it a name. Now, when you are giving it a name, think about whether you want it to be male or a female character. 
 
-Do you want your bot to come across as a machine or as a human. This is very important and will go a long way in giving your bot a character. Generally, bots with machine-like characters will be mostly very static in their conversations. On the other hand human-like bots will engage their users with lively conversations. 
+Do you want your bot to come across as a machine or as a human? This is very important and will go a long way in giving your bot a character. Generally, bots with machine-like characters will be mostly very static in their conversations. On the other hand, human-like bots will engage their users in lively conversations. 
 
 Once you have done that, think of a bot persona. A number of factors will drive the bot persona - demographics of the target customer base, business domain and the task at hand, to name a few. Bot persona will help you greatly when you are work out responses to different situations. 
 
 ## #2 - Watch the tone of voice 
 
 > Thanks to [Catherine Hornby](https://twitter.com/Cat4052) for this tip.
-After you have picked up a persona for your bot, it is essential to decide how that persona will respond in different conversations e.g. formal, informal, use of slang, colloquialism etc. When doing UX designs, we tend to put together style guides and color pallets to help wider teams come up consistent UI design. The same can be done with bots. You can have a copywriter put together a conversation style guide for different bot persona. Anyone building a bot conversation can refer to this style guide and come up with consistent bot responses. 
+After you have picked up a persona for your bot, it is essential to decide how that persona will respond to different conversations e.g. formal, informal, use of slang, colloquialism etc. When doing UX designs, we tend to put together style guides and colour pallets to help wider teams come up consistent UI design. The same can be done with bots. You can have a copywriter put together a conversation style guide for different bot persona. Anyone building a bot conversation can refer to this style guide and come up with consistent bot responses. 
 
 ## #3 - Be humorous
 Humour is everywhere around us, so why not with bots? When we ran the first internal test of our bot, a significant proportion of conversations started with users trying to be humorous. Even when your bot is built around a non-humorous business problem, the moment users find out that they are talking to a bot, there will always be a few who would try to be naughty and start saying funny things to the bot. You may not want to go overboard with handling every possibility in the universe but having humorous responses to some funny statements from the users will make your bot stand out. 
