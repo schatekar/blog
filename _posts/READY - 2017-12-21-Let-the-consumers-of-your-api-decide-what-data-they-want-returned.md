@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Let the consumers of your API decide what data they want returned in the payload
+title: Take your hypermedia API to the next level by using Lazy Gets
+excerpt: One of the challenges of building any public API is that you do not know who will use your API, or how they will use it. That also means you cannot make assumptions about some aspects of the API. One such aspect is size of the payload. A number of factors specific to the business domain and API implementation will decide the size of the payload. However, it will be wrong to say that the consumers have no role to play in this. API consumers would want to be able to fetch just the enough data from any API. This saves them network bandwidth and processing of unnecessary payload. 
 tweet: Take your hypermedia API to the next level by using Lazy Gets
 published: false
 ---
 
-One of the challenges of building any public API is that you don’t know who will use your API, or how they will use it. That also means you cannot make assumptions about some aspects of the API. One such aspect is size of the payload. A number of factors specific to the business domain and API implementation will decide the size of the payload. However, it will be wrong to say that the consumers have no role to play in this. API consumers would want to be able to fetch just the enough data from any API. This saves them network bandwidth and processing of unnecessary payload. 
+One of the challenges of building any public API is that you do not know who will use your API, or how they will use it. That also means you cannot make assumptions about some aspects of the API. One such aspect is size of the payload. A number of factors specific to the business domain and API implementation will decide the size of the payload. However, it will be wrong to say that the consumers have no role to play in this. API consumers would want to be able to fetch just the enough data from any API. This saves them network bandwidth and processing of unnecessary payload. 
 
 ## Welcome the "Lazy Get"
 
