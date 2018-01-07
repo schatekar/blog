@@ -33,15 +33,12 @@ This is a good old "slides and talk" kind of session with participation from the
 
 75 minute session
 
-
-
-
-00:00 - 00:15 API security security journey so far
-00:15 - 00:30 Three actors in standard token based authentication
-00:30 - 00:45 
-00:45 - 00:60
-00:60 - 00:75
-00:75 - 00:90
+5 minutes - Introduction
+15 minutes - API security journey so far
+15 minutes - Three actors in standard token based authentication
+15 minutes - Security threats posed by the client applications
+15 minutes - Security techniques available to API developers 
+10 minutes - Any questions from audience
 
 ## Outputs:
 
