@@ -9,9 +9,9 @@ There seems to be a lot of confusion in the front-end community when it comes to
 -------
 What should you use to secure your APIs? Are API keys enough? Do you need secrets too? Or JWTs the best option? 
 
-As API developers, we always try to answer these questions. One the commonly overlooked aspect while answering these questions is that the security requirements of an API are mainly driven by how the consumers are using these APIs. If a consumer of your APIs is single page app that stores API key in local/session storage and has XSS vulnerability, then it would not matter if you use OAuth 2.0 or any other fancy protocol. This problem magnifies manifold if you are building public APIs with no visibility of what client apps are being built against your API. 
+As API developers, we always try to answer these questions. One of the commonly overlooked aspect while answering these questions is that the security requirements of an API are mainly driven by how the consumers are using these APIs. If a consumer of your APIs is single page app that stores API key in local/session storage and has XSS vulnerability, then it would not matter if you use OAuth 2.0 or any other fancy protocol. Your API is prone to misuse. This problem magnifies manifold if you are building public APIs with no visibility of what client apps are being built against your API. 
 
-Do you have to rely on the developer of the client app making the right security decisions? Isn't there nothing we can do to protect our APIs despite the API consumers making a wrong security choice? How do you limit the damage when a breach happens? Come to this talk to get answers to these and similar questions. You will leave the session with a few design guidelines and tips that would take your API security to the next level. 
+Do you really have to rely on the security choices that the client apps make? Is there nothing you can do to protect our APIs despite the API consumers making a wrong security choice? How do you limit the damage when a breach happens? Come to this talk to get answers to these and similar questions. You will leave the session with a few design guidelines and techniques that would take your API security to the next level. 
 
 
 ## Message to committee

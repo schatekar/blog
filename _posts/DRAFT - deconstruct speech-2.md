@@ -14,11 +14,12 @@ In this talk, I will go over different mechanisms used to protect APIs, which as
 
 I call this last mile security. 
 
-## Points
+## Option 3
 
-1. API key
-2. API key and secret
-3. Tokens
-4. OAuth/OIDC
-5. Long lived tokens
-6. 
+### What is the topic?
+My talk is about API security in general with emphasis on techniques to protect APIs when secrets or tokens are issued to public clients. Public clients are applications that run in an untrusted environment. Examples include single page applications, mobile applications etc. 
+
+In this talk, I will go over different mechanisms used to protect APIs. I will discuss how these mechanisms work, which aspect of the API security do they meet and where do they fall short. I will also talk about different security threats posed by the public clients. Most importantly, I will talk about options that will help API developers protect APIs without having to worry about how public clients are handling tokens. These options range from old knowledge like correct use of cookies and CORS settings to latest guidelines like proof of possession tokens and challenge-response schemes.
+
+### Why is it interesting and important at the same time?
+There is a good understanding of general API security techniques among the developer community. However, I have noticed that most developers would not concern themselves with how untrusted client applications are handling the secrets or tokens issued to them. Single page applications are becoming the default choice when building a web application these days. These applications access APIs directly from the browser and rely on browser supplied storage options to store the sensitive information.  Vulnerabilities like XSS/CSRF in these applications mean that secrets or tokens may be stolen. Redirection attacks on identity servers also playing a part in this. Abundant use of unverified npm packages may result in XSS attack. If APIs are relying on bearer authentication then we are giving the bad guys a free ride. Anyone in possession of the token is able to successfully access the API. I believe that API developers must understand the environments in which their client applications are being developed and run. They need to be able to introduce additional security layers that protect their APIs against threats not under their control. 
