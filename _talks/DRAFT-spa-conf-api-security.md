@@ -1,6 +1,8 @@
 
 ## One line description
 
+Raise the security of your APIs before it gets hacked
+
 ## Abstract:
 
 This session is about API security in general with emphasis on techniques to protect APIs when secrets or tokens are issued to public clients. Public clients are applications that run in an untrusted environment. Examples include single page applications, mobile applications etc. 
