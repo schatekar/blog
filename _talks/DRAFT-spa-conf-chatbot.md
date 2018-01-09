@@ -1,8 +1,10 @@
 ## Title
 
+Building a chatbot using Watson Conversation
 
 ## One line description
 
+Learn how to build a natural language chatbot using Watson Conversation
 
 
 ## Abstract:
@@ -36,12 +38,18 @@ The session will also cover the following additional topics
 
 ## Process
 
-This is a good old "slides and talk" kind of session with a few demonstrations intermixed with a lot of opportunity for participants to get their questions answered. 
+This is a good old "slides and talk" kind of session with a few demonstrations intermixed with a lot of opportunities for participants to get their questions answered. 
 
 ## Detailed timetable
 
-75 minute session
+A 90-minute session
 
+15 minutes - Introduction and anatomy of a chatbot
+15 minutes - Building blocks of a chatbot
+30 minutes - Building a dialogue in Watson conversation
+10 minutes - The best architecture practices for building chatbots
+10 minutes - What makes a chatbot great?
+10 minutes - Questions from the audience
 
 ## Outputs:
 
