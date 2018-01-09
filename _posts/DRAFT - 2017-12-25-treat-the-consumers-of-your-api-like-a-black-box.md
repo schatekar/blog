@@ -12,10 +12,11 @@ Recently we found out that an API that was built to help deliver a front-end fea
 
 An API that returns unbounded result set affects the performance and throughput in more than one way
 
-1. You 
-When your API returns an unbounded result set or allows the consumer to request unbounded or a large number of results then you are putting yourself at the risk of letting the API consumer inadvertently degrade the performance of your API. As a rule of thumb, you should never let your the consumers of your API request an unbounded result set. You can request one or more parameters to filter the results and make those parameters mandatory. Even after this, your API may still return a large number of results. You can limit this by implementing a pagination feature which is always turned on by default. 
+1. The database is taking longer time to process the query and return the results potentially affecting database performance and thus the performance of other applications connecting to that database
+2. The API is taking longer time to process the unbounded result set thus affecting the overall performance of the API
+3. The HTTP connection is open for longer time affecting the throughput of the API
 
-
+As a rule of thumb, you should never let your the consumers of your API request an unbounded result set. You can request one or more parameters to filter the results and make those parameters mandatory. Even after this, your API may still return a large number of results. You can limit this by implementing a pagination feature which is always turned on by default. 
 
 ## #2 - Limit the response payload
 
