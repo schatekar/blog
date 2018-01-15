@@ -3,7 +3,7 @@ layout: post
 title: Treat the consumers of your API like a black box
 excerpt: A lot of times we build an API to meet a specific need, publish those APIs and then expect the consumers to use the API for that specific purpose. This may work when both API producers and consumers are the same team. But the moment API consumption goes outside of the team, it becomes difficult to dictate how the consumers must use the API. It is best not to make any assumptions around that. 
 tweet: Treat the consumers of your API like a black box
-published: false
+published: true
 ---
 
 Recently we found out that an API that was built to help deliver a front-end feature was being used by another team for reporting. Initially, this was not a problem, but as the size of the database grew, we started seeing the impact it had on performance and throughput of this API. One suggestion in the room was to get to the team to stop using the API for that purpose. 
