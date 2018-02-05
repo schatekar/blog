@@ -16,7 +16,8 @@ Come to this session where I will open the bonnet to show you how fundamental bu
 The session will also cover the following additional topics
 
  - The best architecture practices for building chatbots
- - What makes a great chatbot
+ - What makes a great chatbot?
+ - Chatbots are not a feature, they are a framework
 
 
 ## Audience background:
@@ -26,19 +27,23 @@ The session will also cover the following additional topics
 
 ## Benefits of participating
 
-- Learn the fundamental building blocks of any chatbot or Voice User Interface (VUI)
+- Learn the fundamental building blocks of a chatbot
+- Understand core NLU concepts like intents, entities etc. 
 - Get started with using Watson Conversation to power the natural language understanding of your bot
-- Learn the best architectural practices of a chatbot
-- Characteristics of a great chatbot
+- Learn the best architectural practices to build a chatbot
+- Find out what makes a great chatbot
+- What is needed to go from "deployed on a machine under my desk" to production
 
 ## Materials you'll provide
 
  - Slide deck
+ - Github links to demo code
  - Links to useful articles and blog posts
 
 ## Process
+This is a tutorial style session. The audience can build a bot with me if they have all the pre-requisites on their machine. If we have enough people in the audience with the right setup on their machines then we can split the audience into groups and take a proper hands-on approach. If not, the audience can still follow along and understand how a chatbot is built. 
 
-This is a good old "slides and talk" kind of session with a few demonstrations intermixed with a lot of opportunities for participants to get their questions answered. 
+I will update the proposal with prerequisites at the appropriate time.
 
 ## Detailed timetable
 
